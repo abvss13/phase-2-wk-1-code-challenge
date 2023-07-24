@@ -1,0 +1,101 @@
+body {
+  background-color: #67727e;
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #84b9bd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the search bar */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Styles for the transaction form */
+div > input[type="text"],
+div > input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+div > input[type="text"]:focus,
+div > input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+div > button {
+  width: 100%;
+  padding: 12px;
+  background-color: #224928;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+div > button:hover {
+  background-color: #0e151b;
+}
+
+/* Styles for the transaction table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #f71d1d;
+  text-align: left;
+  font-size: 16px;
+  
+}
+
+th {
+  background-color: #d2f5d7;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #557e72;
+}
+
+/* Styles for the table header and rows */
+thead tr {
+  background-color: #0a3868;
+  color: #33741f;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #257c7c;
+}
